@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;800&display=swap');
+:root{
+   --red:#02350e;
+   --black:#0b0101;
+   --white:#a2e09e;
+   --whiteeee:#c3eec0;
+   --light-bg:#f5f5f5;
+   --light-color:#070707;
+   --border:.1rem solid var(--light-color);
+   --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+
+*{
+   font-family: 'Nunito', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+   transition: .2s linear; 
+}
+
+::-webkit-scrollbar{
+   width: 1rem;
+   height: .3rem;
+}
+
+::-webkit-scrollbar-track{
+   background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+   background-color: var(--red);
+}
+
+html{
+   font-size: 62.5%;
+   overflow-x: hidden;
+   scroll-behavior: smooth;
+   scroll-padding-top: 7.5rem;
+}
+
+body{
+   background: var(--light-bg);
+   overflow-x: hidden;
+}
+
+
+section{
+   padding:2rem;
+   margin:0 auto;
+   max-width: 1200px;
+}
+
+.heading{
+   text-align: center;
+   margin-bottom: 2rem;
+   font-size: 4rem;
+   color:var(--black);
+   text-transform: uppercase;
+}
+box
+.btn{
+   display: block;
+   width: 100%;
+   margin-top: 1rem;
+   border-radius: .5rem;
+   padding:1rem 3rem;
+   font-size: 2rem;
+   color:var(--white);
+   background-color: var(--red);
+   cursor: pointer;
+   text-transform: capitalize;
+   text-align: center; 
+   
+   
+   font-family: inherit;
+   
+   outline: 0;
+   
+
+}
+
+.text{
+   opacity: 0.8;
+}
+
+.btn:hover{
+   background-color:var(--black);
+}
+
+.header{
+   position: fixed;
+   top:0; left:0; right:0;
+   background-color: var(--white);
+   box-shadow: var(--box-shadow);
+   z-index: 1000;
+}
+
+.header .flex{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   position: relative;
+  
+}
+
+.header .flex .logo{
+   font-size: 2.5rem;
+   color:var(--black);
+   width: 30%;
+   height: 50px; 
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.header .flex .navbar a{
+   margin:0 1rem;
+   font-size: 2.2rem;
+  color:var(--black);
+  
+}
+
+.header .flex .navbar a:hover{
+   text-decoration: underline;
+   color:var(--red);
+}
+
+.header .flex .icons div{
+   font-size: 2.5rem;
+   color:var(--light-color);
+   cursor: pointer;
+   margin-left: 1.7rem;
+}
+
+.header .flex .icons div:hover{
+   color:var(--red);
+}
+ 
+.header .flex .icons div span{
+   font-size: 2rem;
+}
