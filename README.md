@@ -1,4 +1,3 @@
-.
 
 
 ---
@@ -47,3 +46,30 @@
 
 
  
+
+## Troubleshooting
+- **WhatsApp not responding**: Make sure your WhatsApp application is working properly .
+- **Recipe not found**: Provide a drop-down list displaying the available recipe.
+- **Connection issues**: Check your internet connection and server status.
+
+
+## Contributing
+
+Contributions are always welcome! Just Contact us, we will discuss it.
+
+ ESRAAYAHYA312@GMAIL.COM 
+
+ YUSRA2YAHYA@GMAIL.COM
+
+
+## Authors
+- **Yusra Hassan** - Frontend Developer
+ - [GitHub](https://github.com/yusrA312)
+- **Esraa Hassan** - Frontend Developer
+ -[GitHub](https://github.com/esrAA312)
+
+
+## License
+This project is licensed under the MIT License .
+
+---
