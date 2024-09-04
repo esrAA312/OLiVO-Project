@@ -5,6 +5,10 @@
 # Olivo - Eat Well, Stay Blessed, With OLiVO, You're The Best!
 
 
+  ![Favicon](https://github.com/user-attachments/assets/6e38e87a-1c60-4e01-a8bc-4dd85b53493a)
+
+
+
 ## Introduction
 **Olivo** is an innovative website that allows users to order healthy food directly via WhatsApp. The application offers a wide menu of delicious dishes and provides several services, such as calorie calculation, nutritionist communication, and access to food recipes through an integrated API. Built using Java, HTML, CSS, Bootstrap, Font Awesome, AI, and API technologies, Olivo aims to make healthy eating accessible, convenient, and personalized.
 
@@ -64,9 +68,9 @@ Contributions are always welcome! Just Contact us, we will discuss it.
 
 ## Authors
 - **Yusra Hassan** - Frontend Developer
- - [GitHub](https://github.com/yusrA312)
+   - [GitHub](https://github.com/yusrA312)
 - **Esraa Hassan** - Frontend Developer
- -[GitHub](https://github.com/esrAA312)
+  -[GitHub](https://github.com/esrAA312)
 
 
 ## License
