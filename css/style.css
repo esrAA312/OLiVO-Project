@@ -143,3 +143,172 @@ box
 .header .flex .icons div span{
    font-size: 2rem;
 }
+.user-cal{
+   position: fixed;
+   top:0; right:-110%;
+   width: 100%;
+   z-index: 1100;
+   background-color: var(--white);
+   height: 100vh;
+   overflow-y: scroll;
+}
+
+.user-cal.active{
+   right: 0;
+}
+
+.user-cal #close-cal{
+   text-align: right;
+   margin-bottom: 2.5rem;
+}
+
+.user-cal #close-cal i{
+   cursor: pointer;
+   font-size: 2.5rem;
+   color:var(--red);
+   
+}
+
+
+.user-cal #close-cal i:hover{
+   color:var(--black);
+}
+
+
+
+
+
+.container1 {
+   background-color: #09cb40b7;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   font-family: Arial, sans-serif;
+   border: 5px, solid;
+}
+
+.user-cal .container1 p {
+   text-align: center;
+   margin-bottom: 20px;
+   font-size: 4rem;
+   font-weight: bold;
+}
+
+.input-group1 {
+   margin-bottom: 15px;
+   font-size: 2rem;
+   border: 5px, solid;
+   
+}
+
+label {
+   display: block;
+   font-size: 3rem;
+   margin-bottom: 5px;
+   font-weight: bold;
+}
+
+input, select {
+   width: 100%;
+   padding: 8px;
+   border: 2px solid #ccc;
+   border-radius: 5px;
+   font-size: 3rem;
+
+}
+
+button {
+   width: 100%;
+   padding: 10px;
+   background-color:red;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 2rem !important;
+}
+
+button:hover {
+   background-color: #db0909;
+}
+
+#result {
+   margin-top: 20px;
+   text-align: center;
+   font-size: 1.5rem;
+   font-weight: bold;
+}
+
+.DOC{
+   position: fixed;
+   top:0; right:-110%;
+   width: 35rem;
+   z-index: 1100;
+   background-color: var(--light-bg);
+   border-left: var(--border);
+   height: 100vh;
+   overflow-y: scroll;
+}
+
+.DOC.active{
+   right: 0;
+}
+
+.DOC #close-doc{
+   text-align: right;
+   margin-bottom: 2.5rem;
+}
+
+.DOC #close-doc span{
+   cursor: pointer;
+   font-size: 2.5rem;
+   color:var(--red);
+   text-decoration: underline;
+}
+
+.DOC #close-doc span:hover{
+   color:var(--black);
+}
+
+.DOC .title{
+   text-align: center;
+   margin-bottom: 1rem;
+   color:var(--black);
+   font-size: 3rem;
+   text-transform: capitalize;
+}
+
+.DOC .box{
+   background-color: var(--white);
+   border-radius: .5rem;
+   padding:1rem 2rem;
+   box-shadow: var(--box-shadow);
+   margin:1.5rem 0;
+}
+
+.DOC .box p{
+   margin:1rem 0;
+   font-size: 1.7rem;
+   color:var(--light-color);
+   line-height: 1.5;
+}
+
+.DOC .box p span{
+   color:red;
+   font-weight: bold;
+}
+
+
+
+@keyframes fadeLeft{
+   0%{
+      transform: translateX(5rem);
+   }
+
+}
+
+@keyframes fadeRight{
+   0%{
+      transform: translateX(-5rem);
+   }
+}
