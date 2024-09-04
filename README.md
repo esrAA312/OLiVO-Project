@@ -67,10 +67,11 @@ Contributions are always welcome! Just Contact us, we will discuss it.
 
 
 ## Authors
-- **Yusra Hassan** - Frontend Developer
-- [GitHub](https://github.com/yusrA312)
-- **Esraa Hassan** - Frontend Developer
--[GitHub](https://github.com/esrAA312)
+- **Yusra Hassan** - Frontend Developer  
+  [GitHub](https://github.com/yusrA312)
+- **Esraa Hassan** - Frontend Developer  
+  [GitHub](https://github.com/esrAA312)
+
 
 
 ## License
