@@ -5,7 +5,7 @@
 # Olivo - Eat Well, Stay Blessed, With OLiVO, You're The Best!
 
 
-  ![Favicon](https://github.com/user-attachments/assets/6e38e87a-1c60-4e01-a8bc-4dd85b53493a)
+![ee](https://github.com/user-attachments/assets/d3c31ee6-7bc4-4d10-9e82-d4d05537c6cd)
 
 
 
@@ -68,9 +68,9 @@ Contributions are always welcome! Just Contact us, we will discuss it.
 
 ## Authors
 - **Yusra Hassan** - Frontend Developer
-   - [GitHub](https://github.com/yusrA312)
+- [GitHub](https://github.com/yusrA312)
 - **Esraa Hassan** - Frontend Developer
-  -[GitHub](https://github.com/esrAA312)
+-[GitHub](https://github.com/esrAA312)
 
 
 ## License
