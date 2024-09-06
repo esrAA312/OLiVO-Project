@@ -9,6 +9,7 @@
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+ 
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
@@ -19,8 +20,8 @@
     
 
 
-
 </head>
+
 <body>
   
 <!-- header section starts  -->
@@ -31,7 +32,10 @@
 <a href="#home" class="logo">
    <img src="images/ee.png " alt="OLiVO" height="120">
 </a>
-  <nav class="navbar">
+
+  
+
+      <nav class="navbar">
          <a href="#home">home</a>
          <a href="#Services">More Services</a>
          <a href="#menu">menu</a>
@@ -41,19 +45,88 @@
          
       </nav>
 
+
       <div class="icons">
          <div id="menu-btn" class="fas fa-bars"></div>
          <div id="doc-btn" class="fa fa-user-md" style="font-size:36px;"></div>
          <div id="usercal-btn"  class="fa-solid fa-calculator" style="font-size:36px;"></div>
-
+         <div id="user-btn" style="font-size:36px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" viewBox="0 0 28 28" style="font-size: 36px;">
+                <path fill="currentColor" d="M12.5 1.5c-1.77 0-3.33 1.17-3.83 2.87C8.14 4.13 7.58 4 7 4a4 4 0 0 0-4 4a4.01 4.01 0 0 0 3 3.87V19h13v-7.13c1.76-.46 3-2.05 3-3.87a4 4 0 0 0-4-4c-.58 0-1.14.13-1.67.37c-.5-1.7-2.06-2.87-3.83-2.87m-.5 9h1v7h-1zm-3 2h1v5H9zm6 0h1v5h-1zM6 20v1a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1v-1z"/>
+            </svg>
+        </div>
 
       </div>
-  </section>
+
+   </section>
 
 </header>
 
-<!-- header section ends -->
 
+<!-- header section ends -->
+   <div class="api">
+   <section>
+
+      <div id="close-account"><span>close</span></div>
+
+      
+      <div class="user">
+         
+         <div class = "container">
+            <div class = "meal-wrapper">
+              <div class = "meal-search">
+                <h2 class = "title">Finding Meals</h2>
+            
+                <div class = "meal-search-box">
+                  <select class="search-control" id="search-input">
+                     <option value="" disabled selected>Choose a category</option>
+                     <option value="Beef">Beef</option>
+                     <option value="Chicken">Chicken</option>
+                     <option value="Dessert">Dessert</option>
+                     <option value="Pasta">Pasta</option>
+                     <option value="Seafood">Seafood</option>
+                     <option value="Vegetarian">Vegetarian</option>
+                     <option value="Breakfast">Breakfast</option>
+                     <option value="Lamb">Lamb</option>
+                     <option value="Miscellaneous">Miscellaneous</option>
+                     <option value="Pork">Pork</option>
+                     <option value="Side">Side</option>
+                     <option value="Starter">Starter</option>
+                     <option value="Vegan">Vegan</option>
+                  </select>
+                  <button type="submit" class="search-btn btn" id="search-btn">
+                     <i class="fas fa-search fa-lg"></i> 
+                 </button>
+                 
+                </div>
+              </div>
+             
+        
+              <div class = "meal-result">
+                <div id= "meal">
+                 
+                     <div> <img src="images/about.png" alt="OLiVO"height="300"></div>
+                   
+
+                </div>
+              </div>
+        
+        
+              <div class = "meal-details">
+                <button type="button" class="btn recipe-close-btn" id="recipe-close-btn">
+                  <i class="fas fa-times"></i>
+              </button>
+              <div class="meal-details-content">
+            </div>
+                
+              </div>
+            </div>
+          </div>
+      </div>
+
+   </section>
+
+</div>
 <div class="user-cal">
    
    <section>
@@ -92,13 +165,244 @@
 </div>
 
 
-<!-- custom js file link  -->
-<script src="js/script.js"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-crossorigin="anonymous"></script>
+<div class="DOC">
 
-</body>
-</html>
+   <section>
+
+      <div id="close-doc"><span>close</span></div>
+
+      <h3 class="title"> nutrition specialist </h3>
+      <img src="images/doc.png " alt="Doctor" height="300">
+
+      <div class="box">
+
+         <p> <span> Omar Hassan </span></p>
+         <p> 
+            
+            <span> Biography:</span>
+            Dr. Omar  is a highly respected nutrition expert with over a decade of experience in clinical and community nutrition. He is passionate about promoting sustainable, healthy eating habits and is an advocate for plant-based nutrition.
+            
+            </p>
+            <p><span>Experience:</span>
+
+               - Senior Nutritionist, OLiVO, Riyadh, 2024–Present
+               - Clinical Dietitian, Therapeutic Nutrition Center, Jeddah, 2014–2023</p>
+               <p><span>Contact Information:</span></p>
+                 <P> - Email: dromar@outlook.com</P>
+                 <P> - Office Hours: Sunday to Thursday, 9 AM to 5 PM </p>
+      </div>
+
+      <a class="btn btn-danger btn-lg border"
+      href="https://wa.me/qr/U56FEATJZFR6E1"
+       target="_blank">
+       <i class="bi bi-whatsapp"></i>                 WhatsApp 
+      
+</a>
+
+   </section>
+
+</div>
+<div class="home-bg">
+
+   <section class="home" id="home">
+            <div class="content">
+               <h3>Eat well, stay blessed, with OLiVO, you're the best!</h3>  
+      </div>
+   </section>
+</div>
+   
+
+
+<!-- menu section starts  -->
+
+<section id="menu" class="menu">
+
+   <h1 class="heading">our menu</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+       <div class="code"><span>#1</span></div>
+       <div class="CAL"><span>119 CAL</span></div>
+         <img src="images/1.jpg" alt="">
+         <div class="name">Fried eggs </div>
+            <h2>price 20 SR</h2>
+            <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="eggs, broccoli, carrots, black pepper, salt, olive oil.
+            ">
+            Ingredients
+             </button>
+      </div>
+      <div class="box">
+         <div class="CAL"><span>430 CAL</span></div>
+         <div class="code"><span>#2</span></div>
+         <img src="images/2.jpg" alt="">
+         <div class="name">Salmon dish </div>
+         <h2>price 39 SR</h2>
+            <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="salmon, boiled eggs, cucumber, tomatoes, olives, arugula, avocado, black pepper, salt, olive oil.">
+               Ingredients
+             </button>
+             
+      </div>
+
+      <div class="box">
+         <div class="CAL"><span>301 CAL</span></div>
+         <div class="code"><span>#3</span></div>
+         <img src="images/3.jpg" alt="">
+         <div class="name">Crispy chicken </div>
+            <h2>price 44 SR</h2>
+            <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="chicken, cucumber, tomatoes, carrots, black pepper, salt, olive oil">
+               Ingredients
+                </button>
+      </div>
+      
+      <div class="box">
+         <div class="CAL"><span>270 CAL</span></div>
+         <div class="code"><span>#4</span></div>
+         <img src="images/4.jpg" alt="">
+         <div class="name">Cheese salad</div>
+            <h2>price 23 SR</h2>
+            <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Tomatoes, cucumber, onion, wheaton, cheese, lemon, salt,olive oil.">
+               Ingredients
+             </button>
+      </div>
+
+      <div class="box">
+         <div class="CAL"><span>275 CAL</span></div>
+         <div class="code"><span>#5</span></div>
+         <img src="images/5.jpg" alt="">
+         <div class="name">Stuffed Grape Leaves</div>
+            <h2>price 36 SR</h2>
+            <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="grape leaves stuffed with rice, tomatoes, green peppers, lettuce, lemon, salt, black pepper, olive oil.">
+               Ingredients
+             </button>
+      </div>
+
+      <div class="box">
+         <div class="CAL"><span>390 CAL</span></div> 
+         <div class="code"><span>#6</span></div>
+         <img src="images/6.jpg" alt="">
+         <div class="name">Chicken pasta</div>
+            <h2>price 40 SR</h2>
+            <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="pasta, chicken, broccoli, lemon, black pepper, salt, olive oil">
+               Ingredients
+             </button>
+      </div>
+
+      <div class="box">
+         <div class="CAL"><span>215 CAL</span></div>
+         <div class="code"><span>#7</span></div>
+         <img src="images/7.jpg" alt="">
+         <div class="name">Stuffed Zucchini</div>
+            <h2>price 34 SR</h2>
+            <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="zucchini stuffed with rice, cucumber, tomatoes, parsley, lemon, salt, black pepper, olive oil.">
+               Ingredients
+             </button>
+      </div>
+
+      <div class="box">
+         <div class="CAL"><span>480 CAL</span></div>
+         <div class="code"><span>#8</span></div>
+         <img src="images/8.jpg" alt="">
+         <div class="name">Chicken with potatoes</div>
+            <h2>price 45 SR</h2>
+            <button type="button" class="btn btn-danger" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="chicken, potatoes, corn, carrots, peas, green beans, black pepper, salt, olive oil.">
+               Ingredients
+             </button>
+
+      </div>
+
+      <div class="box">
+         <div class="CAL"><span>513 CAL</span></div>
+         <div class="code"><span>#9</span></div>
+         <img src="images/9.jpg" alt="">
+         <div class="name">Meat with vegetables</div>
+            <h2>price 50 SR</h2>
+            <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="meat, corn, carrots, peas, green beans, black pepper, salt, olive oil.
+            ">
+               Ingredients
+             </button>
+      </div>
+
+      <div class="box">
+         <div class="CAL"><span>597 CAL</span></div>
+         <div class="code"><span>#10</span></div>
+         <img src="images/10.jpg" alt="">
+         <div class="name">
+            Stewed beans</div>
+            <h2>price 40 SR</h2>
+            <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Beans, meat, rice, tomatoes, cucumber, lemon, salt, black pepper, olive oil.
+            ">
+            Ingredients
+             </button>
+      </div>
+
+      <div class="box">
+         <div class="CAL"><span>580 CAL</span></div>
+         <div class="code"><span>#11</span></div>
+         <img src="images/11.jpg" alt="">
+         <div class="name">Stewed peas</div>
+            <h2>price 40 SR</h2>
+            <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="peas, meat, rice, tomatoes, cucumber, onions, carrots  lemon, salt, black pepper, olive oil.
+            ">
+               Ingredients
+             </button>
+      </div>
+
+      <div class="box">
+         <div class="CAL"><span>808 CAL</span></div>
+         <div class="code"><span>#12</span></div>
+         <img src="images/12.jpg" alt="">
+         <div class="name">Grills</div>
+            <h2>price 55 SR</h2>
+            <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Chicken, meat, rice, tomatoes, hot pepper, salt, black pepper, olive oil.
+            ">
+               Ingredients
+             </button>
+      </div>
+
+<div class="box">
+         <div class="CAL"><span>267 CAL</span></div>
+         <div class="code"><span>#13</span></div>
+         <img src="images/13.jpg" alt="">
+         <div class="name">Eggs and salad</div>
+            <h2>price 34 SR</h2>
+            <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Eggs, carrots, tomatoes, broccoli, eggplant black pepper, salt, olive oil.
+            ">
+               Ingredients
+             </button>
+      </div>
+
+      <div class="box">
+         <div class="CAL"><span>687 CAL</span></div>
+         <div class="code"><span>#14</span></div>
+         <img src="images/14.jpg" alt="">
+         <div class="name">Smoked meat</div>
+            <h2>price 45 SR</h2>
+            <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="
+            Meat, rice, peas, potatoes, black pepper, salt, olive oil.
+            ">
+               Ingredients
+             </button>
+      </div>
+
+      <div class="box">
+         <div class="CAL"><span>603 CAL</span></div>
+         <div class="code"><span>#15</span></div>
+         <img src="images/15.jpg" alt="">
+         <div class="name">fried fish</div>
+            <h2>price 50 SR</h2>
+            <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="
+            Fish, rice, broccoli, tomatoes, lettuce, black pepper, salt, olive oil.
+            ">
+               Ingredients
+             </button>
+      </div>
+
+
+   </div>
+
+</section>
+
+<!-- menu section ends -->
   
