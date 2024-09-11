@@ -739,3 +739,113 @@ button:hover {
    line-height: 1;
    text-align: center;
 }
+.menu .box-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, 35rem);
+   gap:1.5rem;
+   align-items: flex-start;
+   justify-content: center;
+}
+
+.menu .box-container .box{
+   background-color: var(--whiteeee);
+   border-radius: .5rem;
+   padding:2rem;
+   text-align: center;
+   box-shadow: var(--box-shadow);
+   position: relative;
+}
+
+.menu .box-container .box img{
+   width: 100%;
+   margin-bottom: 1rem;
+}
+
+.menu .box-container .box .CAL{
+   background-color: var(--black);
+   border-radius: .5rem;
+   padding:.5rem 1rem;
+   font-size: 1.7rem;
+   color:var(--lityy);
+   position:absolute;
+   top:1rem; right:1rem;
+}
+
+.menu .box-container .box .code{
+   background-color: var(--black);
+   border-radius: .5rem;
+   padding:.5rem 1rem;
+   font-size: 1.7rem;
+   color:var(--lityy);
+   position:absolute;
+   top:1rem; left:1rem;
+}
+.menu .box-container .box h3{
+   font-size:2.5rem;
+   font-weight: bold;
+   color: #02350e;
+   }
+
+.menu .box-container .box .name{
+   font-size: 2.5rem;
+   color:var(--black);
+   margin:.5rem 0;
+   font-weight: bold;
+
+}
+.menu .box button{
+background: linear-gradient(90deg, rgb(117, 114, 114), rgb(140, 140, 140));
+}
+
+
+.popover-body {
+   font-size: 20px; 
+ }
+ 
+.order {
+   
+   align-items: center;
+   
+   background-color: var(--lityy);
+   padding:2rem;
+   border-radius: .5rem;
+}
+
+.order  .display-orders{
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;
+   margin-bottom: 2rem;
+   gap:1.5rem;
+   flex-wrap: wrap;
+   padding:3rem 2rem;
+   background-color: var(--light-bg);
+   border-radius: .5rem;
+}
+
+.order  .display-orders h1{
+   font-size: 4rem;
+   
+   color:black;
+   background-color: var(--lityy);
+   padding:1rem 3rem;
+   border-radius: .5rem;
+   justify-content: center;
+}
+.order a{
+   font-size: 2rem;
+   border: 3px, solid !important;
+   border-radius: 5px; 
+
+    
+}
+
+
+.order  .display-orders ul
+{padding-left: 20px;
+   font-size: 2rem;
+   }
+
+.order.display-orders li
+{
+   margin-bottom: 10px;}
