@@ -849,3 +849,35 @@ background: linear-gradient(90deg, rgb(117, 114, 114), rgb(140, 140, 140));
 .order.display-orders li
 {
    margin-bottom: 10px;}
+.Services .box-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, 35rem);
+   gap:1.5rem;
+   align-items: flex-start;
+   justify-content: center;
+}
+
+.Services .box-container .box{
+   background-color: var(--lityy);
+   border-radius: .5rem;
+   padding:2rem;
+   text-align: center;
+   box-shadow: var(--box-shadow);
+}
+
+.Services .box-container .box img{
+   width: 100%;
+   margin-bottom: 2rem;
+}
+
+.Services .box-container .box h3{
+   font-size: 3rem;
+   color:var(--black);
+}
+
+.Services .box-container .box p{
+   padding:1rem 0;
+   line-height: 2;
+   font-size: 2rem;
+   color:black;
+}
