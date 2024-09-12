@@ -881,3 +881,242 @@ background: linear-gradient(90deg, rgb(117, 114, 114), rgb(140, 140, 140));
    font-size: 2rem;
    color:black;
 }
+
+
+.faq {
+   padding: 20px;
+   background-color: var(--lityy);
+   border-radius: 8px;
+   max-width: 800px;
+   margin: 20px auto;
+}
+
+.faq h1.heading {
+   font-size: 4rem;
+   font-weight: bold;
+   margin-bottom: 20px;
+   color: #020e08;
+}
+
+
+.accordion-button {
+   background-color:var(--lityy)!important; 
+   color: #000000 !important;
+   box-shadow: none !important; 
+
+}
+.accordion-body {
+   background-color: #9befa8 !important; 
+   color: #000000 !important; 
+   font-size: 1.7rem;
+}
+
+.accordion-button:hover {
+   background-color: #b1d8b7 !important; 
+   border-color: #a2d2a5 !important; 
+   color: #000000 !important; 
+}
+
+.accordion-button:focus {
+   box-shadow: 0 0 10px 0 rgba(144, 238, 144, 0.5) !important; 
+   outline: none !important;
+   background-color: #b1d8b7 !important;
+   border-color: #a2d2a5 !important;
+   color: #000000 !important;
+}
+
+.accordion-button:active {
+   background-color: #a2d2a5 !important; 
+   color: #000000 !important; 
+   box-shadow: 0 0 10px 0 rgba(144, 238, 144, 0.5) !important;
+}
+
+
+.accordion-button[aria-expanded="true"] {
+   background-color: #cce2cf !important;
+   color: #000000 !important; 
+   box-shadow: 0 0 10px 0 rgba(144, 238, 144, 0.5) !important; 
+}
+
+.accordion-header button {
+   font-size: 30px;
+   color: #000000 !important;
+}
+
+
+.footer .box-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+   gap:1.5rem;
+   align-items: flex-start;
+   justify-content: center;
+}
+
+.footer .box-container .box{
+   padding:2rem;
+   text-align: center;
+   background-color: var(--lityy);
+   box-shadow: var(--box-shadow);
+   border-radius: 1rem;
+   padding: 20px;
+   background-color: var(--lityy);
+   border-radius: 8px;
+   width: 90%;
+   margin: 20px auto;
+}
+
+.footer .box-container .box i{
+   height: 5rem;
+   width: 5rem;
+   line-height: 6rem;
+   font-size: 2rem;
+   color:var(--lityy);
+   background-color: var(--dargreen);
+   border-radius: 50%;
+}
+
+.footer .box-container .box h3{
+   margin:1rem 0;
+   color:var(--black);
+   text-transform: capitalize;
+   font-size: 2.5rem;
+}
+
+.footer .box-container .box p{
+   font-size: 1.6rem;
+   color:var(--light-color);
+}
+
+.footer .end{
+   text-align: center;
+   margin-top: 3rem;
+   padding:1rem 0;
+   padding-top: 3rem;
+   border-top: var(--border);
+   font-size: 2rem;
+   color:var(--black);
+    padding-bottom: 1rem;
+}
+.footer .end .icon-style {
+   color: black; 
+}
+
+
+/* media queries  */
+
+@media (max-width:991px){
+
+   html{
+      font-size: 55%;
+   }
+   
+}
+
+@media (max-width:768px){
+
+   #menu-btn{
+      display: inline-block;
+   }
+
+   .header .flex .navbar{
+      position: absolute;
+      top:99%; left:0; right:0;
+      background-color: var(--lityy);
+      border-top: var(--border);
+      border-bottom: var(--border);
+      clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+   }
+
+
+   .header .flex .navbar.active{
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+   }
+
+   .header .flex .navbar a{
+      display: block;
+      margin:2rem;
+   }
+
+   .home-bg .home .slide-container .slide .content h3{
+     font-size: 4rem;
+   }
+
+   .order form .flex .inputBox{
+      width: 100%;
+   }
+
+}
+
+@media (max-width:450px){
+
+   html{
+      font-size: 50%;
+   }
+
+
+   .about .box-container{
+      grid-template-columns: 1fr;
+   }
+
+   .menu .box-container{
+      grid-template-columns: 1fr;
+   }
+   
+}
+
+
+@media (max-width: 767.98px) {
+   .faq {
+       padding: 15px;
+   }
+   
+   .faq .heading {
+       font-size: 1.5rem;
+   }
+   
+   .accordion-button {
+       font-size: 0.875rem;
+       padding: 8px 12px;
+   }
+   
+   .accordion-body {
+       font-size: 0.875rem;
+   }
+}
+
+.About{
+   padding: 20px;
+   background-color: var(--lityy);
+   border-radius: 8px;
+   max-width: 800px;
+   margin: 20px auto;
+}
+.About .box-container{
+   display: flex;
+   
+   /*زر الواتس*/
+   align-items: flex-start;
+   justify-content: center;
+}
+
+
+ 
+.About  img{
+   width: 25%;
+   height:25%;
+   place-items: center;
+   
+   
+}
+
+
+.About .box-container p{
+   padding:1rem 0;
+   line-height: 2;
+   font-size: 2rem;
+   color:black;
+
+}
+
+
+
