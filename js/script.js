@@ -1,9 +1,10 @@
+// Get elements from the DOM for search button, meal list, meal details, and close button
 const searchBtn = document.getElementById('search-btn');
 const mealList = document.getElementById('meal');
 const mealDetailsContent = document.querySelector('.meal-details-content');
 const recipeCloseBtn = document.getElementById('recipe-close-btn');
 
-// event listeners
+// Event listeners for searching meals, opening recipes, and closing the recipe modal
 searchBtn.addEventListener('click', getMealList);
 mealList.addEventListener('click', getMealRecipe);
 recipeCloseBtn.addEventListener('click', () => {
@@ -11,7 +12,7 @@ recipeCloseBtn.addEventListener('click', () => {
 });
 
 
-// get meal list that matches with the meal type
+// Fetches a list of meals based on the search input from TheMealDB API and displays it
 function getMealList(){
     let searchInputTxt = document.getElementById('search-input').value.trim();
     fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?c=${searchInputTxt}`)
@@ -45,7 +46,7 @@ function getMealList(){
    
   
 
-// get recipe of the meal
+// Fetches the detailed recipe for a selected meal and opens a modal to display it
 function getMealRecipe(e){
     e.preventDefault();
     if(e.target.classList.contains('recipe-btn')){
@@ -56,7 +57,7 @@ function getMealRecipe(e){
     }
 }
 
-// create a modal
+// Creates and displays a modal with the recipe details, including instructions and a YouTube link
 function mealRecipeModal(meal){
     console.log(meal);
     meal = meal[0];
@@ -79,7 +80,7 @@ function mealRecipeModal(meal){
 }
 
 
-
+// Toggle the mobile navigation bar visibility when the menu button is clicked
 let navbar = document.querySelector('.header .flex .navbar');
 
 document.querySelector('#menu-btn').onclick = () =>{
@@ -87,7 +88,7 @@ document.querySelector('#menu-btn').onclick = () =>{
 }
 
 
-
+// Show account options when the user button is clicked
 
 let account = document.querySelector('.api');
 
@@ -95,10 +96,14 @@ document.querySelector('#user-btn').onclick = () =>{
    account.classList.add('active');
 }
 
+// Hide user account options when the close button is clicked
+
 document.querySelector('#close-account').onclick = () =>{
    account.classList.remove('active');
 }
 
+
+// Show a user calendar when the calendar button is clicked
 
 let account1 = document.querySelector('.user-cal');
 
@@ -106,32 +111,36 @@ document.querySelector('#usercal-btn').onclick = () =>{
    account1.classList.add('active');
 }
 
+// Hide the user calendar when the close button is clicked
+
 document.querySelector('#close-cal').onclick = () =>{
    account1.classList.remove('active');
 }
-
+// Initialize Bootstrap popovers for elements with the data-bs-toggle attribute
 document.addEventListener('DOMContentLoaded', function () {
     var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
     var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
       return new bootstrap.Popover(popoverTriggerEl)
     })
   });
+// Show doctor when the doc button is clicked
  
 let myOrders = document.querySelector('.DOC');
 
 document.querySelector('#doc-btn').onclick = () =>{
    myOrders.classList.add('active');
 }
-
+// Hide doctor when the close button is clicked
 document.querySelector('#close-doc').onclick = () =>{
    myOrders.classList.remove('active');
 }
 
+// Hide the navigation bar when the user scrolls the page
 window.onscroll = () =>{
    navbar.classList.remove('active');
 
 };
-
+  // Calculater
 function calculate() {
    const gender = document.getElementById('gender').value;
    const age = parseFloat(document.getElementById('age').value);
