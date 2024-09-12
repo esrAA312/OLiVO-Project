@@ -1110,13 +1110,18 @@ background: linear-gradient(90deg, rgb(117, 114, 114), rgb(140, 140, 140));
 }
 
 
-.About .box-container p{
+.About .box-container{
    padding:1rem 0;
    line-height: 2;
    font-size: 2rem;
    color:black;
 
 }
-
+.About .box-container .video {
+  
+   display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
 
 
