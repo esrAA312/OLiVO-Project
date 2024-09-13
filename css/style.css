@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;800&display=swap');
+/*General and comprehensive coordination */
 :root{
    --dargreen:#02350e;
    --black:#0b0101;
@@ -58,7 +59,6 @@ section{
    color:var(--black);
    text-transform: uppercase;
 }
-box
 .btn{
    display: block;
    width: 100%;
@@ -87,6 +87,7 @@ box
 .btn:hover{
    background-color:var(--black);
 }
+/*header coordination */
 
 .header{
    position: fixed;
@@ -167,6 +168,7 @@ box
 .container{
     min-height: 100vh;
 }
+/*meal coordination */
 
 .meal-wrapper{
    border: 5px, solid;
@@ -236,6 +238,7 @@ box
   
 }
 
+/*meal-result coordination */
 
 .meal-result{
     margin-top: 4rem;
@@ -338,7 +341,7 @@ box
 .meal-details-content p:not(.recipe-category){
     padding: 1rem 0;
 }
-
+/*recipe coordination */
 .recipe-close-btn{
     position: absolute;
     right: 2rem;
@@ -406,7 +409,7 @@ box
     width: 100%;
 }
 
-
+/*api coordination */
 .api{
    position: fixed;
    top: 0;
@@ -515,6 +518,7 @@ box
    box-shadow: var(--box-shadow); 
    border: 1px solid var(--border-color); 
 }
+/*media */
 @media screen and (min-width: 600px){
     .meal-search-box{
         width: 540px;
@@ -544,7 +548,7 @@ box
 }
 
 
-
+/*user-cal coordination */
 .user-cal{
    position: fixed;
    top:0; right:-110%;
@@ -640,7 +644,7 @@ button:hover {
    font-size: 1.5rem;
    font-weight: bold;
 }
-
+/*Nutrition specialist coordination */
 .DOC{
    position: fixed;
    top:0; right:-110%;
@@ -701,7 +705,7 @@ button:hover {
 }
 
 
-
+/*animations */
 @keyframes fadeLeft{
    0%{
       transform: translateX(5rem);
@@ -714,7 +718,7 @@ button:hover {
       transform: translateX(-5rem);
    }
 }
-
+/*home-bg  coordination */
 .home-bg .home {
    margin-top: 12rem;
    display: flex;
@@ -739,6 +743,9 @@ button:hover {
    line-height: 1;
    text-align: center;
 }
+
+/*menu coordination */
+
 .menu .box-container{
    display: grid;
    grid-template-columns: repeat(auto-fit, 35rem);
@@ -801,7 +808,7 @@ background: linear-gradient(90deg, rgb(117, 114, 114), rgb(140, 140, 140));
 .popover-body {
    font-size: 20px; 
  }
- 
+ /*order coordination */
 .order {
    
    align-items: center;
@@ -849,6 +856,8 @@ background: linear-gradient(90deg, rgb(117, 114, 114), rgb(140, 140, 140));
 .order.display-orders li
 {
    margin-bottom: 10px;}
+
+/*Services coordination */
 .Services .box-container{
    display: grid;
    grid-template-columns: repeat(auto-fit, 35rem);
@@ -882,7 +891,7 @@ background: linear-gradient(90deg, rgb(117, 114, 114), rgb(140, 140, 140));
    color:black;
 }
 
-
+/* Questions coordination */
 .faq {
    padding: 20px;
    background-color: var(--lityy);
@@ -943,7 +952,7 @@ background: linear-gradient(90deg, rgb(117, 114, 114), rgb(140, 140, 140));
    color: #000000 !important;
 }
 
-
+/* footer coordination */
 .footer .box-container{
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
@@ -1083,7 +1092,7 @@ background: linear-gradient(90deg, rgb(117, 114, 114), rgb(140, 140, 140));
        font-size: 0.875rem;
    }
 }
-
+/* About coordination */
 .About{
    padding: 20px;
    background-color: var(--lityy);
@@ -1094,21 +1103,15 @@ background: linear-gradient(90deg, rgb(117, 114, 114), rgb(140, 140, 140));
 .About .box-container{
    display: flex;
    
-   /*زر الواتس*/
    align-items: flex-start;
    justify-content: center;
 }
 
-
- 
 .About  img{
    width: 25%;
    height:25%;
    place-items: center;
-   
-   
 }
-
 
 .About .box-container{
    padding:1rem 0;
