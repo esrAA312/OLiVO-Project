@@ -56,7 +56,11 @@ https://esraa312.github.io/OLiVO-Project
 - **Contact Nutritionist**: "Connect to Nutritionist"
 
 
-## Testing the Application
+
+
+
+
+## Testing
 
 This project uses **Jest** for unit testing. Below are the steps to run the tests.
 
@@ -65,8 +69,8 @@ This project uses **Jest** for unit testing. Below are the steps to run the test
 - Ensure you have **Node.js** and **npm** installed on your machine.
 - Install the project's dependencies by running:
 
- 1-npm install
- 2-npm test
+ - 1-npm install
+ - 2-npm test
 
  
 
