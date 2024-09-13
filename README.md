@@ -15,7 +15,9 @@
 ## Table of Contents
 - [Features](#features)
 - [Technologies Used](#technologies-used)
+- [Demo](#Demo)
 - [Usage](#usage)
+- [Testing](#Testing)
 - [Troubleshooting](#troubleshooting)
 - [Contributing](#Contributing)
 - [Authors](#Authors)
@@ -36,6 +38,12 @@
 - **AI**: Third service to increase development and modernity on OLiVO.
 - **API**: Integration with external services for recipes and nutritionist communication.
 
+## Demo
+- **Visit our page**:
+https://esraa312.github.io/OLiVO-Project
+  
+- **Demo link**:
+
 
 ## Usage
 1. **Start the application** by running the server.
@@ -48,6 +56,17 @@
 - **Contact Nutritionist**: "Connect to Nutritionist"
 
 
+## Testing the Application
+
+This project uses **Jest** for unit testing. Below are the steps to run the tests.
+
+### Prerequisites
+
+- Ensure you have **Node.js** and **npm** installed on your machine.
+- Install the project's dependencies by running:
+
+ 1-npm install
+ 2-npm test
 
  
 
